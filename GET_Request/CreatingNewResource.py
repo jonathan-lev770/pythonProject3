@@ -28,7 +28,9 @@ response_json = json.loads(response.text)
 
 # now you can print the id from json path
 id = jsonpath.jsonpath(response_json, 'id')
-print(id[0])  # it will always return a list, so you  say print first element
+print(id[0])  # it will always return a list, so you  say print first element if you don't want it as a list
+
+
 
 
 
