@@ -64,7 +64,7 @@ def func(a, b=20, *args, d=0, e):
     print(a, b, *args, d, e)
 
 
-func(5, 4, 3, 2, 1, e='all engines running')            # d would be 0, we didnt' need to call it
+func(5, 4, 3, 2, 1, e='all engines running')  # d would be 0, we didnt' need to call it
 
 
 def func2(a, b=1, *, d, e=True):
